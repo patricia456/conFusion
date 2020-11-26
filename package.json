@@ -1,0 +1,24 @@
+{
+  "name": "confusion",
+  "version": "1.0.0",
+  "description": "My bootstrap template",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patricia456/conFusion.git"
+  },
+  "author": "Patricia Namoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patricia456/conFusion/issues"
+  },
+  "homepage": "https://github.com/patricia456/conFusion#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
