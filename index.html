@@ -48,10 +48,15 @@
               your culinary senses!
             </p>
           </div>
-           <div class="col-12 col-sm align-self-center">
+           <div class="col-12 col-sm-3 align-self-center">
                   <img src="img/logo.png" class="img-fluid">
             </div>
-         
+           <div class="col-12 col-sm-3 align-self-center ">
+                <a href="#reserve" class="btn btn-warning btn-sm btn-block" role="button" aria-pressed="true">Reserve</a>
+            </div>
+          
+                   
+              
       </div>
     </header>
 
@@ -80,13 +85,20 @@
           <h3>This Month's Promotions</h3>
         </div>
         <div class="col col-sm col-md">
-          <h2>Weekend Grand Buffet</h2>
-          <p>
+          <div class="media">
+              
+            <div class="media-body">
+                <h2>Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                <p>
             Featuring mouthwatering combinations with a choice of five different
             salads, six enticing appetizers, six main entrees and five choicest
             desserts. Free flowing bubbly and soft drinks. All for just $19.99
             per person
-          </p>
+             </p>
+          </div>
+          <img class="d-flex mr-3 img-thumbnail align-self-center"
+                  src="img/buffet.png" alt="buffet">
+        </div>
         </div>
       </div>
 
@@ -96,7 +108,7 @@
         </div>
         <div class="col col-sm order-sm-first col-md">
             <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                    <img class="d-flex mr-3 img-thumbnail align-self-right"
                             src="img/alberto.png" alt="Alberto Somayya">
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
@@ -105,10 +117,65 @@
                             International experience having worked closely with
                             whos-who in the culinary world, he specializes in
                             creating mouthwatering Indo-Italian fusion experiences.
-                            </p>
+                       </p>
                     </div>
                 </div>
         </div>
+      </div>
+      <div class="row row-content">
+        <div class="col-12 col-sm-2">
+
+        </div>
+
+         <div class="col-12 col-sm-8" id="reserve">
+          <div class="card">
+             <h3 class="card-header bg-warning text-white" >Reserve a Table</h3>
+             <div class="card-body">
+               <form >
+              <div class="form-group row">
+                 <label for="num-guest" class="col-md-3 col-sm-12 col-form-label">Number of Guests</label>
+                 <div class="col-md-1 col-sm-12">
+                    <input  type="radio" name="btn" id="btn1" value="1" > 1 
+                    <input  type="radio" name="btn" id="btn2" value="2" > 2
+                    <input  type="radio" name="btn" id="btn3" value="3" > 3
+                     <input  type="radio" name="btn" id="btn4" value="4" > 4
+                     <input  type="radio" name="btn" id="btn5" value="5" > 5
+                     <input  type="radio" name="btn" id="btn6" value="6" > 6
+                 </div>
+                  <div class="col-md-3"> 
+
+                  </div>
+              </div>
+                <div class="form-group row">
+                <label for="date-time" class="col-md-3 col-form-label">Date and time</label>
+                <div class="col-5 col-md-3">
+                    <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                    </div>
+                     <div class="col-5 col-md-3">
+                    <input type="text" class="form-control" id="time" name="time" placeholder="time">
+                    </div>
+                </div>
+                 <div class="form-group row">
+                        <div class="offset-md-3 col-md-10">
+                            <button type="submit" class="btn btn-primary">Reserve</button>
+                        </div>
+                    </div>
+
+
+
+            </form>
+             </div>
+
+          </div>
+
+
+
+           
+        </div>
+        <div class="col-12 col-sm-2">
+
+        </div>
+
       </div>
     </div>
 
