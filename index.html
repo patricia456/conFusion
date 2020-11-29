@@ -174,8 +174,8 @@
                   </div>
        
         </form>
-      </div>
-     <div class="form-group row">
+     
+     <div class="form-group row " >
        <div class="col-md-3">
        </div>
         <div class=" col-md-6">
@@ -185,9 +185,13 @@
         <div class="col-md-3">
         </div>
      </div>
+ </div>
+
+
       </div>
   </div>
 </div>
+
 
     <div class="container">
         <div class="row row-content">
@@ -431,8 +435,15 @@
                     $("#mycarousel").carousel('cycle');
                     $("#carouselButton").children("span").removeClass('fa-play');
                     $("#carouselButton").children("span").addClass('fa-pause');                    
-                }git 
+                }
             });
+        });
+    </script>
+
+       <script>
+        $(document).ready(function(){
+            $('#reserveform').modal(options)
+            $('#loginModal').modal(options)
         });
     </script>
   </body>

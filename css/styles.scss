@@ -78,3 +78,22 @@ body {
     z-index: 1;
 }
 
+.modal-header {
+    background: $background-dark;
+    color: floralwhite;
+
+    .close{
+        color: $background-pale;
+    }
+
+
+}
+.modal-body{
+    background: $background-pale;
+
+}
+
+#footer{
+    background: $background-dark;
+
+}
